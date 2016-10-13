@@ -88,8 +88,8 @@ function LIDC_process_annotations
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Set these paths correctly...
-LIDC_path   = '';  % REPLACE WITH LIDC DATSET PATH
-output_path = '';  % REPLACE WITH OUTPUT PATH
+LIDC_path   = '../Data/LIDC/orig';  % REPLACE WITH LIDC DATSET PATH
+output_path = '../Data/LIDC/annot_img';  % REPLACE WITH OUTPUT PATH
 
 % Used if no images are found (i.e. you have only downloaded the XML files)
 default_pixel_spacing = 0.787109; 
